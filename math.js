@@ -1,6 +1,10 @@
-// math.js
 function square(num) {
   return num * num;
 }
 
-module.exports = { square };
+// new function on check branch
+function cube(num) {
+  return num * num * num;
+}
+
+module.exports = { square, cube };
